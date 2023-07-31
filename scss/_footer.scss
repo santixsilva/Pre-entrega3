@@ -1,0 +1,57 @@
+footer{
+    padding: $pft;
+    display: flex;
+    flex-direction: $hz;
+    justify-content: space-between;
+    align-items: center;
+    border-top: $bd-gris;
+}
+
+footer a{
+    text-decoration: $nd;
+}
+
+.redes svg{
+    width: $old;
+    height: $mt;
+    margin-top: $mt;
+    color: $bl;
+    transition: $trs3;
+}
+
+.redes-nosotros svg{
+    width: $old;
+    height: $mt;
+    margin-top: $mt;
+    color: $bl;
+    transition: $trs2;
+}
+
+.logo-whatsapp:hover{
+       color: $vd;  
+}
+
+.logo-instagram:hover{
+    color: $pink;
+}
+
+.logo-mail:hover{
+    color: $yellow;
+}
+
+.terminos-condiciones-nosotros a{
+    color: $bl;
+    margin-right: $old;
+}
+.terminos-condiciones a{
+    color: $bl;
+    margin-right: $old;
+}
+
+.terminos-condiciones{
+    margin-top: $mt;
+}
+
+.terminos-condiciones-nosotros{
+    margin-top: $mt;
+}

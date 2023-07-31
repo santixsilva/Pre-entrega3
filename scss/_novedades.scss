@@ -1,0 +1,69 @@
+h2{
+    color: $bl;
+    text-align: center;
+    line-height: $lg;
+    font-size: 2.5em;
+}
+
+.novedades{
+    padding: $pnv;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.novedades figure{
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: $trs4;
+}
+
+.novedades figure:hover{
+    border: $bd-gris;
+    border-radius: 15px;
+    .basic-black{
+        color: $gris;
+    }
+}
+
+.novedades figure img{
+    margin-top: 20px;
+}
+
+.novedades figure img{
+    width: 70%;
+}
+
+.basic-black{
+    color: $bl;
+    margin-top: 20px;
+    transition: $trs4;
+}
+
+figcaption{
+    color: $bl;
+    font-weight: 1000;
+    font-size: 1.3em;
+}
+
+.button{
+    text-align: center;
+    color: $bl;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    transition: $trs4;
+}
+
+.button:hover{
+    padding: 5px 20px;
+    background: $bl;
+    border-radius: 15px;
+    color: $bk;
+    cursor: pointer;
+}

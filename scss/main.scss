@@ -1,3 +1,23 @@
-@import "_nav";
 @import "_vars";
+@import "_nav";
+@import "_footer";
+@import "_nosotros";
+@import "_novedades";
+@import "_productos";
+@import "_info";
+@import "_contacto";
+@import "_responsive";
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: $fonts;
+}
+
+body{
+    background-color: $bk;
+}
+

@@ -1,0 +1,113 @@
+@media (min-width: 700px){
+
+    #logo-contacto{
+        margin-left: 555px;
+    }
+    .contact{
+        padding: 0 4rem;
+    }
+
+    .contact-wrapper{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    
+    .contact-wrapper > * {
+        padding: 2em;
+    }
+
+    .contact-info h4,
+    .contact-info ul,
+    .contact-info p{
+        padding: 1em;
+        text-align: left;
+    }
+}
+
+@media (width < 768px){
+    #logo a{
+        margin-left: 80px;     
+    }
+
+    nav div a img{
+        width: 80%;
+    }
+
+    #nav-list a{
+        font-size: 1.2em;
+        margin-left: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #search-button{
+        margin-left: 10px;
+    }
+
+    h1{
+        font-size: 2em;
+        line-height: 2em;
+    }
+
+    .novedades{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .novedades figure img{
+        width: 200px;
+    }
+
+    .novedades figure{
+        width: 80%;
+    }
+
+    .redes svg{
+        width: 60px;
+        height: 20px;
+    }
+
+    .terminos-condiciones ul{
+        font-size: 10px;
+        margin-left: 20px;
+    }
+
+    .terminos-condiciones a{
+        margin-right: 0;
+    }
+
+    #logo-contacto a img{
+        width: 70%;
+        margin-left: 35px;
+    }
+
+    .info{
+        margin-left: 0px;
+    }
+
+    .redes-nosotros svg{
+        width: 60px;
+        height: 20px;
+
+    }
+
+    .terminos-condiciones-nosotros a{
+        margin-right: 0px;
+    }
+
+    .terminos-condiciones-nosotros ul{
+        font-size: 10px;
+        margin-left: 20px;
+    }
+
+    .input-search{
+        margin-left: 15px;
+    }
+
+    .btn-search{
+        margin-left: 166px;
+    }
+
+}

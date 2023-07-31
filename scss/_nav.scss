@@ -1,0 +1,52 @@
+#nav{
+    background-color: $bk;
+    position: $st;
+    top: 0;
+    left: 0;
+}
+
+#logo a{
+    margin-left: 15px;
+}
+
+.navbar-toggler-icon{
+    color: $bl;
+}
+
+#nav-list a{
+    color: $bl;
+    font-size: $md;
+}
+
+#search-button button{
+    color: $vd;
+    border:solid 1px $vd;
+    margin-right: 15px;
+    transition: $trs1;
+}
+
+#search-button button:hover{
+    background-color: $vd;
+    color: $bk;
+}
+
+.nav-item a{
+    transition: $trs2;
+    border-radius: 15px;
+}
+
+.nav-item a:hover{
+    background-color: $vd;
+    padding: 5px;
+    color: $bk;
+}
+
+
+nav div a img{
+    width: 40%; 
+}
+
+nav{
+    border-bottom: $bd-gris;
+    z-index: 4;
+    }
